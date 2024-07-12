@@ -14,12 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: From the Art # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Purchase Paintings and Learn to Create Your Own # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  art, painting course, buy painting, painting
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,8 +34,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Madhuparna Dey
+  email: sketch.book.bdartist@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/448381957_877678517711255_4707138152457884343_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=fD7KS5XgWV0Q7kNvgG1dFE4&_nc_ht=scontent.fcgp27-1.fna&oh=00_AYA8KsQ1GuW-98jRL9NObouxFScs5p1jFR_PL66WCk5z5w&oe=66971854
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
