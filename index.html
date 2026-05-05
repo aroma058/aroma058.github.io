@@ -230,38 +230,6 @@
       margin-top: 0.5rem;
     }
 
-    /* ─── PROJECTS ─── */
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 1.2rem;
-    }
-    .project-card {
-      background: var(--card-bg);
-      border: 1px solid var(--rule);
-      border-radius: 4px;
-      padding: 1.4rem;
-      transition: border-color 0.2s, transform 0.2s;
-    }
-    .project-card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .project-card-name {
-      font-family: var(--serif);
-      font-size: 1.05rem;
-      margin-bottom: 0.4rem;
-    }
-    .project-card-stack {
-      font-family: var(--mono);
-      font-size: 0.68rem;
-      color: var(--accent);
-      letter-spacing: 0.05em;
-      margin-bottom: 0.6rem;
-    }
-    .project-card-desc {
-      font-size: 0.88rem;
-      color: var(--ink-muted);
-      line-height: 1.6;
-    }
-
     /* ─── EDUCATION & SKILLS ─── */
     .edu-block {
       display: grid;
@@ -369,7 +337,6 @@
     <a class="nav-name" href="#">Aroma Hoque</a>
     <ul class="nav-links">
       <li><a href="#research">Research</a></li>
-      <li><a href="#projects">Projects</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -437,53 +404,6 @@
         <span class="tag">Bioinformatics</span>
         <span class="tag">Community Detection</span>
       </div>
-    </div>
-  </section>
-</div>
-
-<!-- PROJECTS -->
-<div class="page" id="projects">
-  <section>
-    <p class="section-label">Building</p>
-    <h2>Selected Projects</h2>
-    <div class="projects-grid">
-
-      <div class="project-card">
-        <div class="project-card-name">Tutor Hub</div>
-        <div class="project-card-stack">Node.js · React</div>
-        <p class="project-card-desc">Online platform for students and tutors to post and approve tuition requests.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-card-name">Engineering Admission System</div>
-        <div class="project-card-stack">Python · Flask · Oracle</div>
-        <p class="project-card-desc">Centralized demo system to streamline admission for engineering universities in Bangladesh.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-card-name">xv6 Paging & Scheduler</div>
-        <div class="project-card-stack">C · OS</div>
-        <p class="project-card-desc">Implemented a simple paging framework and lottery scheduler for the xv6 operating system.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-card-name">Minimalist C Compiler</div>
-        <div class="project-card-stack">C++</div>
-        <p class="project-card-desc">Tiny compiler that translates a subset of C code into assembly.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-card-name">Minesweeper AI</div>
-        <div class="project-card-stack">Python · AI</div>
-        <p class="project-card-desc">Knowledge-based AI agent that plays Minesweeper using propositional logic.</p>
-      </div>
-
-      <div class="project-card">
-        <div class="project-card-name">Multi-threaded HTTP Server</div>
-        <div class="project-card-stack">Java · Sockets</div>
-        <p class="project-card-desc">Built a multi-threaded HTTP server using Java and socket programming.</p>
-      </div>
-
     </div>
   </section>
 </div>
