@@ -141,6 +141,24 @@
       flex-wrap: wrap;
       gap: 0.75rem;
     }
+
+    .news-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .news-list li {
+      font-size: 0.95rem;
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    .news-date {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      color: var(--accent);
+      margin-right: 0.5rem;
+    }
     .btn {
       display: inline-flex;
       align-items: center;
@@ -356,6 +374,7 @@
   <div class="page">
     <a class="nav-name" href="#">Aroma Hoque</a>
     <ul class="nav-links">
+      <li><a href="#news">News</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -397,6 +416,17 @@
       <span class="avatar-placeholder">AH</span>
     </div>
   </div>
+</div>
+
+<!-- NEWS -->
+<div class="page" id="news">
+  <section>
+    <p class="section-label">Updates</p>
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="news-date">[Jan 2026]</span> Presented a poster on SIEVE-DB at <strong>Northeast Database (NEDB) Day 2026</strong>, UMass Boston.</li>
+    </ul>
+  </section>
 </div>
 
 <!-- RESEARCH -->
