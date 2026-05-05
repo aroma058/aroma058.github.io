@@ -80,6 +80,20 @@
     .nav-links a:hover { color: var(--accent); }
 
     /* ─── HERO ─── */
+    .hero-icons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      align-items: center;
+    }
+    .icon-link {
+      opacity: 0.75;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .icon-link:hover {
+      opacity: 1;
+      transform: translateY(-2px);
+    }
     .hero-subtitle {
       font-size: 0.95rem;
       color: var(--ink-muted);
@@ -364,9 +378,20 @@
         Previously at <strong>BUET</strong>, I worked on graph neural networks for biological community detection.
       </p>
       <div class="hero-links">
-        <a class="btn btn-primary" href="mailto:aroma.hoque001@umb.edu">✉ Email Me</a>
-        <a class="btn btn-outline" href="https://github.com/aroma058" target="_blank">GitHub</a>
-        <a class="btn btn-outline" href="Aroma_CV.pdf" target="_blank">CV / Résumé</a>      </div>
+        <a class="btn btn-primary" href="mailto:aroma.hoque@gmail.com">✉ Email Me</a>
+        <a class="btn btn-outline" href="Aroma_CV.pdf" target="_blank">CV / Résumé</a>
+      </div>
+      <div class="hero-icons">
+        <a class="icon-link" href="mailto:aroma.hoque@gmail.com" title="Email">
+          <img src="https://cdn.simpleicons.org/gmail/c94a2a" width="22" height="22" alt="Email"/>
+        </a>
+        <a class="icon-link" href="https://github.com/aroma058" target="_blank" title="GitHub">
+          <img src="https://cdn.simpleicons.org/github/1a1814" width="22" height="22" alt="GitHub"/>
+        </a>
+        <a class="icon-link" href="https://linkedin.com/in/" target="_blank" title="LinkedIn">
+          <img src="https://cdn.simpleicons.org/linkedin/c94a2a" width="22" height="22" alt="LinkedIn"/>
+        </a>
+      </div>
     </div>
     <div class="avatar-wrap">
       <span class="avatar-placeholder">AH</span>
