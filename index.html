@@ -135,6 +135,12 @@
       line-height: 1.75;
       margin-bottom: 1.8rem;
     }
+    .hero-bio a {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .hero-bio a:hover { color: var(--accent); }
     .hero-bio strong { color: var(--ink); font-weight: 500; }
     .hero-links {
       display: flex;
@@ -401,8 +407,9 @@
       <h1>Aroma <em>Hoque</em></h1>
       <p class="hero-subtitle">Ph.D. Student, Computer Science<br>University of Massachusetts Boston</p>
       <p class="hero-bio">
-        I am an incoming PhD student at <strong>UMass Boston</strong>, advised by
-        <strong>Prof. Tarikul Islam Papon</strong>. Currently working as a research intern with Prof. Papon, 
+        I am an incoming PhD student in <a href="https://www.cs.umb.edu/" target="_blank"><strong>Computer Science, University of Massachusetts Boston (UMass Boston)</strong></a>, 
+        advised by <a href="https://www.cs.umb.edu/~tpapon" target="_blank"><strong>Prof. Tarikul Islam Papon</strong></a> in the <a href="https://www.cs.umb.edu/~tpapon/research.html" target="_blank"><strong>Computing Hardware &amp; Large Data Lab (CHiLL)</strong></a>. 
+        Currently working as a research intern with Prof. Papon, 
         my research focuses on <strong>database systems</strong> and <strong>storage</strong> — 
         I am developing SIEVE-DB, a buffer cache eviction algorithm for PostgreSQL, and building 
         a benchmarking tool to analyze the impact of background events on buffer pool performance.
